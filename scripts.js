@@ -83,7 +83,7 @@ function color(button) {
 
 function keyPad(key) {
     // row 1 sounds (percussion);
-    const kick = new audioPad("/dj-box-sounds/k1.wav");
+    const kick = new audioPad("dj-box-sounds/k1.wav");
     const snare = new audioPad("dj-box-sounds/c1.wav");
     const hiHat = new audioPad("dj-box-sounds/h2.wav");
 
